@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: 'Cormorant Garamond', serif;;
+    background-color:#FADADD; /* Soft pastel beige */
+    color: #6b4226; /* Earthy brown */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fffaf3;
+    padding: 20px;
+    box-shadow: 0px 4px 8px#D2B48C;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.title-container h1 {
+    font-size: 28px;
+    color: #8D6E63; /* Soft gold */
+    margin: 0;
+}
+
+.tagline {
+    font-size: 16px;
+    font-style: italic;
+    color: #8D6E63;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#8D6E63;
+    font-size: 16px;
+}
+
+/* Main Content */
+main {
+    padding: 40px 20px;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    background:#8D6E63; /* Soft gold */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #8D6E63;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #fffaf3;
+    font-size: 14px;
+    color: #8D6E63;
+}

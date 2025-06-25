@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Bloom - Holistic Cycle Wellness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Lunar Bloom Logo" class="logo">
+            <div class="title-container">
+                <h1>Lunar Bloom</h1>
+                <p class="tagline">Lunar Rhythms, Blossoming Health.</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#tracker">Cycle Tracker</a></li>
+                <li><a href="#wellness">Wellness Plan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Cycle Tracking Form -->
+        <section id="tracker">
+            <h2>Track Your Cycle</h2>
+            <form id="cycle-form">
+                <div class="form-group">
+                    <label for="cycle-date">Last Period Date:</label>
+                    <input type="date" id="cycle-date" required>
+                </div>
+                <button type="button" onclick="trackCycle()">Submit</button>
+            </form>
+            <p id="cycle-message"></p>
+        </section>
+
+        <!-- Wellness Plan -->
+        <section id="wellness">
+            <h2>Personalized Wellness Plan</h2>
+            <p>Based on your cycle, here’s a personalized health plan:</p>
+            <div id="recommendations">
+                <h3 id="phase-name">Loading...</h3>
+                <p id="phase-description"></p>
+                <h4>Recommended Foods:</h4>
+                <ul id="phase-foods"></ul>
+
+                <h4>Recommended Recipe:</h4>
+                <p id="recipe-name"></p>
+                <ul id="recipe-ingredients"></ul>
+                <h4>Instructions:</h4>
+                <ol id="recipe-instructions"></ol>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Lunar Bloom. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
